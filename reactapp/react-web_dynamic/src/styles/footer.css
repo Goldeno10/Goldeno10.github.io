@@ -1,0 +1,70 @@
+/* Styling for category section of Landing Page */
+
+/* Styling for footer div */
+footer {
+    position: static;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.1px solid;
+    border-color: grey;
+    opacity: 50%;
+}
+
+/* Styling for footer links div */
+footer .quick-links {
+    display: inline-block;
+    color:black;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+/* Styling to delete underline from anchor tags in footer */
+.quick-links a {
+    font-size: small;
+    color:black;
+    align-self: center;
+    text-decoration-line: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for footer credits section */
+/* footer .credits {
+    font-size: small;
+    color:black;
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+} */
+
+/* Styling for link section divider */
+footer .divider {
+    background-color: black;
+    display: inline;
+    border: 0.1px solid black;
+    margin: 5px;
+}
+.footer-link {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+}
+.footer-link a{
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.footer-link p{
+    display: block;
+}
+.copyright {
+    font-size: smaller;
+    align-self: center;
+}

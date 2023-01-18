@@ -1,0 +1,104 @@
+/* Styling for category section of Landing Page */
+
+/* Styling for devices section flexbox */
+.devices {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+    justify-content: center;
+}
+
+/* Styling for seaction heading "devices" */
+.devices-header {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-left: 40px;
+}
+
+/* Styling for each device article */
+.container {
+    width: 250px;
+    height: fit-content;
+    background-color:#E4E2E1;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styling for device display photo container*/
+.photo-container {
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Styling for device display photo */
+.device .device-photo {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+/* .dji-osmo-mobile-3 .device-photo {
+    content: url(../images/dji-osmo-mobile-3.jpg);
+    opacity: 0.9;
+} */
+
+/* Styling for name and price section of device*/
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for name and price text */
+.name-price h4 {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Styling for device descriptions */
+.description {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+/* Styling for category tag text */
+.category-tag {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Styling for device lease button */
+.lease-device {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 70px;   
+    font-family: 'Roboto', sans-serif; 
+}
+/* Styling for category tag text */
+.category-tag {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}

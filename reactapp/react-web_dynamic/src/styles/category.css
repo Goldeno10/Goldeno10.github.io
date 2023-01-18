@@ -1,0 +1,70 @@
+/* Styling for category section of Landing Page */
+#categories {
+    display: flex;
+    margin: 20px 40px;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+/* Styling removes category section below 1060px */
+@media only screen and (max-width: 1060px) {
+    #categories {
+        display: none;
+    }
+}
+
+/* Styling for category buttons */
+#categories button {
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0px 15px;
+}
+
+/* Styling for category button text */
+#categories p {
+    margin: 10px 10px;
+}
+
+
+
+/* .gaming .icon {
+    background: url(../images/game.png) no-repeat;
+}
+
+.filming .icon {
+    background: url(../images/camera.png) no-repeat;
+}
+
+.recording .icon {
+    background: url(../images/mic.png) no-repeat;
+}
+
+.mobile .icon {
+    background: url(../images/mobile.png) no-repeat;
+}
+
+.computers .icon {
+    background: url(../images/computers.png) no-repeat;
+}
+
+.audio .icon {
+    background: url(../images/audio.png) no-repeat;
+}
+
+.wearables .icon {
+    background: url(../images/wearables.png) no-repeat;
+}
+
+.fitness .icon {
+    background: url(../images/fitness.png) no-repeat;
+}
+
+.pa-system .icon {
+    background: url(../images/pa-systems.png) no-repeat;
+} */
