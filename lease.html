@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>X-lease</title>
+    <link rel="stylesheet" type="text/css" href="styles/category.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/devices.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <Link to="/">
+        <img src="./logo.png" alt="" class="logo" />
+        </Link>
+        <div class="search">
+            <button class="search-button">
+                <div class="search-logo"></div>
+                search
+            </button>
+            <input type="text" class="search-field" />
+        </div>
+        <div class="links">
+            <Link to="lease-my-device/">
+            <button class="lease-button">
+                Lease your device
+            </button>
+            </Link>
+            <Link to="lease-my-device/">
+            <button class="lease-button">
+                Sign In
+            </button>
+            </Link>
+            <Link to="lease-my-device/">
+            <button class="lease-button">
+                Sign Up
+            </button>
+            </Link>
+        </div>
+    </header>
+    <section>
+        <div class="lease-container">
+            <div class="device-picture">
+                <img src="./images/shure-mv7-mic.jpg" alt="device photo">
+            </div>
+            <div class="device-info">
+                <div class="info">
+                    <h2>Shure MV7 Mic</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <h6>
+                        Recording
+                    </h6>
+                </div>
+                <div class="price">
+                    <h3>$20</h3> per day
+                </div>
+                <div class="duration">
+                    <form id='duration-form' method='POST' class='quantity' action='#'>
+                        <div class="duration-container">
+                            <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                            <input type='text' name='quantity' value='0' class='qty' />
+                            <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                        </div>
+                        <select id="">
+                            <option value="hours">Hours</option>
+                            <option value="day">Days</option>
+                            <option value="month">Month</option>
+                        </select>
+                    </form>
+                    <div>
+                        <p>The maximum lease duration is <b>12 days</b></p>
+                    </div>
+                </div>
+                <div class="options">
+                    <button class="lease">
+                        Lease
+                    </button>
+                    <button class="save">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-link">
+            <a to="/">
+                About
+            </a>
+            <a to="/">
+                Contacts
+            </a>
+            <a to="/">
+                Terms and Conditions
+            </a>
+        </div>
+        <div class="quick-links">
+            <a href="https://github.com/Adisa-Shobi/X-lease" target="_blank" rel="noreferrer">GitHub</a>
+            <div class="divider"></div>
+            <Link to="/">Blog</Link>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; 2023 X-Lease</p>
+        </div>
+    </footer>
+</body>
+
+</html>

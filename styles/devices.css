@@ -1,0 +1,222 @@
+/* Styling for category section of Landing Page */
+
+/* Styling for devices section flexbox */
+.devices {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+    justify-content: center;
+}
+
+/* Styling for seaction heading "devices" */
+.devices h2 {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+/* Styling for each device article */
+.devices article {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Styling for device display photo container*/
+.device .photo-container {
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Styling for device display photo */
+.device .device-photo {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.dji-osmo-mobile-3 .device-photo {
+    content: url(../images/dji-osmo-mobile-3.jpg);
+    opacity: 0.9;
+}
+
+.shure-mv7-mic .device-photo {
+    content: url(../images/shure-mv7-mic.jpg);
+    opacity: 0.9;
+}
+
+.sony-zv-1 .device-photo {
+    content: url(../images/sony-zv1.png);
+    opacity: 0.9;
+}
+
+/* Styling for name and price section of device*/
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for name and price text */
+.name-price h4 {
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* Styling for device descriptions */
+.device .description {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+/* Styling for category tag text */
+.device .category-tag {
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Styling for device lease button */
+.device .lease-device {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*
+--------------------------------------------------------------
+Styles for device lease page ('lease.html')
+--------------------------------------------------------------
+*/
+
+.lease-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 130px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.device-picture {
+    color: gray;
+}
+
+.device-picture img {
+    opacity: 0.9;
+}
+
+.device-picture,
+.device-picture img {
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+}
+
+.device-info>div {
+    border-bottom: 0.2px solid rgb(228, 223, 223);
+}
+
+.device-info {
+    margin: 0px 10px;
+}
+
+.info {
+    font-weight: 300;
+}
+
+.info h6 {
+    color: gray;
+}
+
+.price {
+    padding: 20px 0px;
+}
+
+.price h3 {
+    display: inline;
+}
+
+.duration {
+    padding: 20px 0px;
+}
+
+.duration p {
+    font-size: small;
+    font-weight: 400;
+    /* color: #dad7d6; */
+}
+
+.options {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.options button {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+
+.options .lease {
+    background-color: black;
+    color: white;
+}
+
+#duration-form input {
+    height: 40px;
+    border: none;
+    text-align: center;
+    background-color: transparent;    
+}
+
+#duration-form input[type=button] {
+    color: black;
+    font-size: 25px;
+    padding: 0px 12px;
+}
+
+#duration-form input[type=text] {
+    width: 70px;    
+    padding: 0px 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.duration-container {
+    background-color: #E4E2E1;
+    display: inline-block;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding: 0px;
+
+}
+
+#duration-form select {
+    display: inline-block;
+    height: 40px;
+    border: none;
+    background-color: #E4E2E1;
+    border-radius: 50px;
+    padding: 0px 10px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}

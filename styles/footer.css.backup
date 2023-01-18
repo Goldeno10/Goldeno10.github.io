@@ -1,0 +1,38 @@
+/* Styling for category section of Landing Page */
+
+/* Styling for footer div */
+footer {
+    position: static;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-top: 0.1px solid;
+}
+
+/* Styling for footer links div */
+footer .quick-links {
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling to delete underline from anchor tags in footer */
+.quick-links a {
+    text-decoration-line: none;
+}
+
+/* Styling for footer credits section */
+footer .credits {
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for link section divider */
+footer .divider {
+    background-color: black;
+    display: inline;
+    border: 0.1px solid black;
+    margin-right: 5px;
+}
