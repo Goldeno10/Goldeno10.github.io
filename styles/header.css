@@ -78,7 +78,8 @@ header .links {
 header .lease-button {
     border: none;
     height: 40px;
-    background-color: #E4E2E1;
+    margin-top: 20px;
+    font-size: small;
     border-radius: 50px;
     text-decoration: none;
     margin-right: 10px;
