@@ -3,84 +3,88 @@
     <head>
         <meta charset="utf-8">
         <title>X-lease</title>
-        <link rel="stylesheet" type="text/css" href="styles/category.css">
         <link rel="stylesheet" type="text/css" href="styles/header.css">
         <link rel="stylesheet" type="text/css" href="styles/footer.css">
-        <link rel="stylesheet" type="text/css" href="styles/devices.css">
         <link rel="stylesheet" type="text/css" href="styles/leaseMyDevice.css">
-        </head>
-    <body>
-        <header>
-            <a href="./index.html">
-                <img src="./logo.png" alt="" class="logo" />
-            </a>
-            <div class="search">
-                <button class="search-button">
-                    <div class="search-logo"></div>
-                    Search
-                </button>
-                <input class="search-field" type="text">
-            </div>
-            <div class="links">
-                <a href="#" class="lease-button">Login</a>
-                <a href="#" class="lease-button">Signin</a>
-                <button class="profile"></button>
-            </div>
-        </header>
-    <div className="body">
-        <form className="form">
-            <div className="title">Welcome</div>
-            <div className="subtitle">Add your device for lease</div>
-            <div className="input-container ic1">
-                <input className="input" 
+    </head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./logo.png" alt="" class="logo" />
+        </a>
+        <div class="search">
+            <button class="search-button">
+                <div class="search-logo"></div>
+                Search
+            </button>
+            <input class="search-field" type="text">
+        </div>
+        <div class="links">
+            <a href="#" class="lease-button">Login</a>
+            <a href="#" class="lease-button">Signin</a>
+            <button class="profile"></button>
+        </div>
+    </header>
+    <div class="body_1">
+        <form class="form">
+            <div class="title">Welcome</div>
+            <div class="subtitle">Add your device for lease</div>
+            <div class="input-container ic1">
+                <input class="input" 
                     type="text" placeholder=" "
                     required
                 />
-                <div className="cut"></div>
-                <label htmlFor="devicename" className="placeholder">Device name</label>
+                <div class="cut"></div>
+                <label htmlFor="devicename" class="placeholder">Device name</label>
             </div>
-            <div className="input-container ic2">
-                <input
-                    className="input" 
-                    required
-                    type="number" 
-                    placeholder=" " 
-                />
-                <div className="cut cut-long"></div>
-                <label htmlFor="price" className="placeholder">Price per day</label>
-            </div>
-            <div>
-                <div className="xlc">
-                    <label className="category">Device Category</label>
+                <div class="price input-container ic2">
+                    <input
+                        class="input" 
+                        required
+                        type="number" 
+                        placeholder=" " 
+                    />               
+                    <div class="cut cut-long"></div>
+                        <label htmlFor="price" class="placeholder">Price per day</label>
                 </div>
-                <div className="input-container ic1 cat">
-                    <select >
-                        <option className="option" value={category.name} key={category.id}>category.name</option>    
-                    </select>
-                </div>
-            </div>
-            <div className="input-container ic2 text-a">
+                <div class="input-container ic1 cate">
+                        <div class="xlc xlc-cat">
+                            <label class="category">Category</label>
+                        </div>
+                        <select 
+                            name="categories" class="categories">
+                            <option class="option">Gaming</option>
+                            <option class="option">Filming</option>
+                            <option class="option">Audio</option>
+                            <option class="option">Recording</option>
+                            <option class="option">Computers</option>
+                            <option class="option">Wearables</option>
+                            <option class="option">Fitness</option>
+                            <option class="option">PA Systems</option>
+                        </select>
+                </div>  
+            <div class="input-container ic2 text-a">
                 <textarea 
                     required
-                    className="input desc" 
+                    class="input desc" 
                     name="text"  cols="30" rows="10" 
                     placeholder=" " 
                     > 
                 </textarea>
-                <div className="cut cut-short"></div>
-                <label  className="placeholder">Device description</label>
+                <div class="cut cut-short"></div>
+                <label  class="placeholder">Device description</label>
             </div>
-            <div className="input-container file">
-                <div className="xlc xlc-image">
-                    <label className="category">Device Image</label>
+            <div class="input-container file">
+                <div class="xlc xlc-image">
+                    <label class="category">Device Image</label>
                 </div>
                 <input 
-                    className="input"
+                    class="input image"
                     required
                     type="file"
                 />
             </div>
-            <button type="text" className="submit">submit</button>
+            <button type="text" class="submit">submit</button>
         </form>
     </div>
     <footer>
@@ -88,7 +92,10 @@
             <a href="https://github.com/Adisa-Shobi/X-lease" target="_blank" rel="noreferrer">Github</a>
             <div class="divider">
             </div>
-            <a href="">Blog</a>
+            <a href="#">Blog</a>
+            <div class="divider">
+            </div>
+            <a href="./about.html">About</a>
         </div>
         <div class="credits">
             <div class="logo"></div>
